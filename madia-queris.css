@@ -1,0 +1,177 @@
+###################*/
+@media (min-width: 1200px) {
+
+}
+@media only screen and (min-width:1119px) {
+   
+
+}
+@media only screen and (min-width:1024px) {
+    .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+
+}
+
+@media only screen and (min-width:1280px) {}
+
+@media only screen and (min-width:1919px) {}
+
+@media only screen and (max-width:912px) {}
+
+@media only screen and (max-width:820px) {}
+
+@media only screen and (max-width:769px) {}
+
+@media only screen and (max-width:530px) {}
+
+@media only screen and (max-width:480px) {}
+
+@media only screen and (min-width:410px) {
+     .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+  margin-top: 300px;
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: 3rem;
+}
+.heart{
+    margin-top: -700px;
+}
+
+}
+
+@media only screen and (max-width:375px) {
+        .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+  margin-top: 300px;
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: 35px;
+}
+.heart{
+    margin-top: -700px;
+}
+
+}
+
+
+}
+
+
+@media only screen and (min-width:398px) {
+        .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+/*  margin-top: 200px;*/
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: 25px;
+}
+.heart{
+    margin-bottom: -500px;
+}
+
+}
+}
+
+@media only screen and (min-width:350px) {
+    .page{
+        margin-top: -200px;
+
+    }
+     .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+  margin-top: 300px;
+  /* Centering */
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: ;
+    display: none;
+
+}
+.heart{
+    margin-top: -700px;
+}
+}
+
+@media only screen and (max-width:280px) {}

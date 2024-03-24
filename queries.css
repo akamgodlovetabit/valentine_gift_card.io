@@ -1,0 +1,557 @@
+@media screen and (min-width: 600px) {
+    /* styles for screens wider than 600px */
+     .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+  margin-top: 200px;
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: 3rem;
+    font-synthesis: style;
+    font-variant: initial;
+}
+
+.heart {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: #ff0000;
+  transform: rotate(45deg);
+  animation: heartbeat 1.4s linear infinite;
+  justify-content: center;
+  margin-top: -30%;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.heart:before {
+  transform: translateY(-50%);
+}
+
+.heart:after {
+  transform: translateX(-50%);
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: rotate(45deg) scale(1);
+  }
+
+  25% {
+    transform: rotate(45deg) scale(1);
+  }
+
+  30% {
+    transform: rotate(45deg) scale(1.4);
+  }
+
+  50% {
+    transform: rotate(45deg) scale(1.2);
+  }
+
+  70% {
+    transform: rotate(45deg) scale(1.4);
+  }
+
+  100% {
+    transform: rotate(45deg) scale(1);
+  }
+}
+
+
+input#open {
+  display: none;
+}
+}
+@media screen and (max-width: 600px) {
+    /* styles for screens wider than 600px */
+     .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+  margin-top: 250px;
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: 2.2rem;
+    font-synthesis: style;
+    font-variant: initial;
+}
+
+.text_view{
+    font-size: 15px;
+    font-variant: small-caps;
+}
+.heart {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background-color: #ff0000;
+  transform: rotate(45deg);
+  animation: heartbeat 1.4s linear infinite;
+  justify-content: center;
+  margin-top: -55%;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+.card-front .note{
+    width: 200px;
+    height: 100px;border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.card-front {
+  position: relative;
+  background-color: #fff0f3;
+  width: 300px;
+  height: 300px;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 30px 0 50px rgba(0, 0, 0, 0.3);
+  transition: .3s;
+}
+
+.card-front:before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: #d04e4e;
+  top: 10px;
+  left: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-inside {
+  position: absolute;
+  background-color: #fff0f3;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.22), 100px 20px 100px rgba(0, 0, 0, 0.1);
+}
+
+input#open {
+  display: none;
+}
+}
+
+
+
+
+@media only screen and (max-width:530px) {
+
+.text_view{
+    font-size: 15px;
+    font-variant: small-caps;
+}
+.heart {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background-color: #ff0000;
+  transform: rotate(45deg);
+  animation: heartbeat 1.4s linear infinite;
+  justify-content: center;
+  margin-top: -50%;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+.card-front .note{
+    width: 190px;
+    height: 90px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.card-front {
+  position: relative;
+  background-color: #fff0f3;
+  width: 300px;
+  height: 300px;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 30px 0 50px rgba(0, 0, 0, 0.3);
+  transition: .3s;
+}
+
+.card-front:before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: #d04e4e;
+  top: 10px;
+  left: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-inside {
+  position: absolute;
+  background-color: #fff0f3;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.22), 100px 20px 100px rgba(0, 0, 0, 0.1);
+}
+
+input#open {
+  display: none;
+}
+}
+
+@media only screen and (max-width:480px) {
+     .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+  margin-top: 250px;
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: 2.2rem;
+    font-synthesis: style;
+    font-variant: initial;
+}
+
+.text_view{
+    font-size: 15px;
+    font-variant: small-caps;
+}
+.heart {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  background-color: #ff0000;
+  transform: rotate(45deg);
+  animation: heartbeat 1.4s linear infinite;
+  justify-content: center;
+  margin-top: -50%;
+}
+
+
+.card-front .note{
+    width: 160px;
+    height: 60px;border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.card-front {
+  position: relative;
+  background-color: #fff0f3;
+  width: 300px;
+  height: 300px;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 30px 0 50px rgba(0, 0, 0, 0.3);
+  transition: .3s;
+}
+
+.card-front:before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: #d04e4e;
+  top: 10px;
+  left: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-inside {
+  position: absolute;
+  background-color: #fff0f3;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.22), 100px 20px 100px rgba(0, 0, 0, 0.1);
+}
+
+}
+
+@media only screen and (min-width:767px) {
+    .page{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        box-sizing: border-box;
+
+    }
+    .container{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */;
+    margin-top: -300px;
+    }
+    .form{
+        margin-top: -300px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+}
+
+
+@media only screen and (min-width:398px) {
+
+}
+
+@media only screen and (max-width:370px) {
+ .valantine-card{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: inset;
+        box-sizing: border-box;
+    }
+    .valentines-day-card {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: .3s;
+  margin-top: 250px;
+  /* Centering */
+  top: 50%;
+  left: 30%;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%) perspective(2500px);
+}
+.fire{
+    font-size: 1.7rem;
+    font-synthesis: style;
+    font-variant: initial;
+}
+
+.text_view{
+    font-size: 15px;
+    font-variant: small-caps;
+}
+.heart {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: #ff0000;
+  transform: rotate(45deg);
+  animation: heartbeat 1.4s linear infinite;
+  justify-content: center;
+  margin-top: -90%;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+.card-front .note{
+    width: 200px;
+    height: 100px;border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.card-front {
+  position: relative;
+  background-color: #fff0f3;
+  width: 150px;
+  height: 150px;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 30px 0 50px rgba(0, 0, 0, 0.3);
+  transition: .3s;
+}
+
+.card-front:before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: #d04e4e;
+  top: 10px;
+  left: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-inside {
+  position: absolute;
+  background-color: #fff0f3;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.22), 100px 20px 100px rgba(0, 0, 0, 0.1);
+}
+
+.href{
+    width: 100px;
+    height: 50px;
+    justify-content: right;
+    margin-right: -40px;
+
+}
+
+}
+
+@media only screen and (max-width:280px) {}
+
+
+@media screen and (min-height: 800px) {
+    /* styles for screens taller than 800px */
+}
+@media screen and (max-height: 800px) {
+    /* styles for screens shorter than 800px */
+    .page .container{
+    margin-top: 200px;
+}
+}
+@media screen and (orientation: landscape) {
+    /* styles for landscape mode */
+}
+@media screen and (orientation: portrait) {
+    /* styles for portrait mode */
+}
+@media screen and (min-resolution: 300dpi) {
+    /* styles for devices with at least 300 dots per inch */
+}
+@media screen and (max-resolution: 300dpi) {
+    /* styles for devices with no more than 300 dots per inch */
+}
+@media screen and (aspect-ratio: 16/9) {
+    /* styles for screens with a 16:9 aspect ratio */
+}
+@media screen and (aspect-ratio: 4/3) {
+    /* styles for screens with a 4:3 aspect ratio */
+}
+@media screen and (min-device-width: 1200px) {
+    /* styles for devices wider than 1200px */
+}
+@media screen and (max-device-width: 1200px) {
+    /* styles for devices narrower than 1200px */
+}
+@media screen and (min-device-height: 800px) {
+    /* styles for devices taller than 800px */
+}
+@media screen and (max-device-height: 800px) {
+    /* styles for devices shorter than 800px */
+}
+@media screen and (color) {
+    /* styles for color screens */
+}
+@media screen and (min-color: 8) {
+    /* styles for screens with at least 8 bits per color component */
+}
+@media screen and (monochrome) {
+    /* styles for monochrome screens */
+}
+@media screen and (min-monochrome: 8) {
+    /* styles for monochrome screens with at least 8 bits per pixel */
+}
+@media tv and (scan: progressive) {
+    /* styles for televisions with progressive scanning */
+}
+@media tv and (scan: interlace) {
+    /* styles for televisions with interlaced scanning */
+}
+@media screen and (grid: 1) {
+    /* styles for grid-based (e.g., character grid) devices */
+}
+@media screen and (grid: 0) {
+    /* styles for bitmap-based devices */
+}
+@media screen and (update: slow) {
+    /* styles for screens that update slowly (e.g., e-paper) */
+}
+@media screen and (update: fast) {
+    /* styles for screens that update quickly (e.g., CRT or LCD) */
+}
